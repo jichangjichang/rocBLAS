@@ -132,5 +132,30 @@ template <> static constexpr char rocblas_precision_string<rocblas_i32_complex  
 template <> static constexpr char rocblas_precision_string<rocblas_u32_complex   >[] = "u32_c";
 #endif
 
+template <typename T, typename std::enable_if<!is_complex<T>>::type* = nullptr>
+double get_real(const T& val)
+{
+    return static_cast<double>(val);
+}
+
+template <typename T, typename std::enable_if<is_complex<T>>::type* = nullptr>
+double get_real(const T& val)
+{
+    return static_cast<double>(val.x);
+}
+
+template <typename T, typename std::enable_if<!is_complex<T>>::type* = nullptr>
+double get_imaginary(const T& val)
+{
+    return 0.0;
+}
+
+template <typename T, typename std::enable_if<is_complex<T>>::type* = nullptr>
+double get_imaginary(const T& val)
+{
+    return static_cast<double>(val.y);
+}
+
+
 // clang-format on
 #endif

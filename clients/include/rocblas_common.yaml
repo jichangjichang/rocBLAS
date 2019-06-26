@@ -43,6 +43,12 @@ Real precisions: &real_precisions
   - &hpa_bf16_precision
     { a_type:  bf16_r, b_type:  bf16_r, c_type: bf16_r, d_type: bf16_r, compute_type: f32_r }
 
+Complex precisions: &complex_precisions
+  - &single_complex_precision
+    { a_type: f32_c, b_type: f32_c, c_type: f32_c, d_type: f32_c, compute_type: f32_c }
+  - &double_complex_precision
+    { a_type: f32_c, b_type: f32_c, c_type: f32_c, d_type: f32_c, compute_type: f32_c }
+
 C precisions: &single_double_precisions
   - *single_precision
   - *double_precision
@@ -94,7 +100,9 @@ Arguments:
   - incd: rocblas_int
   - incb: rocblas_int
   - alpha: c_double
+  - alpha_i: c_double
   - beta: c_double
+  - beta_i: c_double
   - transA: c_char
   - transB: c_char
   - side: c_char
@@ -161,7 +169,9 @@ Defaults:
   incd: 0
   incb: 0
   alpha: 1.0
+  alpha_i: 0.0
   beta: 0.0
+  beta_i: 0.0
   transA: '*'
   transB: '*'
   side: '*'

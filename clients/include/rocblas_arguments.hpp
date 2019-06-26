@@ -41,8 +41,10 @@ struct Arguments
     rocblas_int incd;
     rocblas_int incb;
 
-    double alpha;
-    double beta;
+    double alpha;   // real
+    double alpha_i; // imag
+    double beta;    // rea
+    double beta_i;  // imag
 
     char transA;
     char transB;
@@ -122,7 +124,9 @@ struct Arguments
         check(arg.incd);
         check(arg.incb);
         check(arg.alpha);
+        check(arg.alpha_i);
         check(arg.beta);
+        check(arg.beta_i);
         check(arg.transA);
         check(arg.transB);
         check(arg.side);

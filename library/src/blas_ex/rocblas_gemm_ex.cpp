@@ -17,6 +17,18 @@
 
 #include "rocblas_gemm_ex.hpp"
 
+template <typename T, typename std::enable_if<!is_complex<T>>::type* = nullptr>
+double to_double(const T& val)
+{
+    return val;
+}
+
+template <typename T, typename std::enable_if<is_complex<T>>::type* = nullptr>
+double to_double(const T& val)
+{
+    return val.x;
+}
+
 extern "C" rocblas_status rocblas_gemm_ex(rocblas_handle    handle,
                                           rocblas_operation trans_a,
                                           rocblas_operation trans_b,
@@ -72,8 +84,11 @@ extern "C" rocblas_status rocblas_gemm_ex(rocblas_handle    handle,
         {
             if(handle->pointer_mode == rocblas_pointer_mode_host)
             {
-                double alpha_double;
-                double beta_double;
+                double alpha_double = 0.0;
+                double beta_double = 0.0;
+                double alpha_imag_double = 0.0;
+                double beta_imag_double = 0.0;
+
                 if(compute_type == rocblas_datatype_f16_r)
                 {
                     alpha_double = *static_cast<const _Float16*>(alpha);
@@ -93,6 +108,20 @@ extern "C" rocblas_status rocblas_gemm_ex(rocblas_handle    handle,
                 {
                     alpha_double = *static_cast<const int32_t*>(alpha);
                     beta_double  = *static_cast<const int32_t*>(beta);
+                }
+                else if(compute_type == rocblas_datatype_f32_c)
+                {
+                    alpha_double      = (*static_cast<const rocblas_float_complex*>(alpha)).x;
+                    alpha_imag_double = (*static_cast<const rocblas_float_complex*>(alpha)).y;
+                    beta_double       = (*static_cast<const rocblas_float_complex*>(beta)).x;
+                    beta_imag_double  = (*static_cast<const rocblas_float_complex*>(beta)).y;
+                }
+                else if(compute_type == rocblas_datatype_f64_c)
+                {
+                    alpha_double      = (*static_cast<const rocblas_double_complex*>(alpha)).x;
+                    alpha_imag_double = (*static_cast<const rocblas_double_complex*>(alpha)).y;
+                    beta_double       = (*static_cast<const rocblas_double_complex*>(beta)).x;
+                    beta_imag_double  = (*static_cast<const rocblas_double_complex*>(beta)).y;
                 }
 
                 if(layer_mode & rocblas_layer_mode_log_trace)
@@ -446,6 +475,62 @@ extern "C" rocblas_status rocblas_gemm_ex(rocblas_handle    handle,
                                                                                        batch_count);
         }
     }
+    else if(a_type == rocblas_datatype_f32_c && b_type == rocblas_datatype_f32_c
+            && c_type == rocblas_datatype_f32_c && d_type == rocblas_datatype_f32_c
+            && compute_type == rocblas_datatype_f32_c)
+    {
+        rb_status = gemm_ex_typecasting<rocblas_float_complex,
+                                        rocblas_float_complex,
+                                        rocblas_float_complex>(handle,
+                                                               trans_a,
+                                                               trans_b,
+                                                               m,
+                                                               n,
+                                                               k,
+                                                               alpha,
+                                                               a,
+                                                               lda,
+                                                               stride_a,
+                                                               b,
+                                                               ldb,
+                                                               stride_b,
+                                                               beta,
+                                                               c,
+                                                               ldc,
+                                                               stride_c,
+                                                               d,
+                                                               ldd,
+                                                               stride_d,
+                                                               batch_count);
+    }
+    else if(a_type == rocblas_datatype_f64_c && b_type == rocblas_datatype_f64_c
+            && c_type == rocblas_datatype_f64_c && d_type == rocblas_datatype_f64_c
+            && compute_type == rocblas_datatype_f64_c)
+    {
+        rb_status = gemm_ex_typecasting<rocblas_double_complex,
+                                        rocblas_double_complex,
+                                        rocblas_double_complex>(handle,
+                                                                trans_a,
+                                                                trans_b,
+                                                                m,
+                                                                n,
+                                                                k,
+                                                                alpha,
+                                                                a,
+                                                                lda,
+                                                                stride_a,
+                                                                b,
+                                                                ldb,
+                                                                stride_b,
+                                                                beta,
+                                                                c,
+                                                                ldc,
+                                                                stride_c,
+                                                                d,
+                                                                ldd,
+                                                                stride_d,
+                                                                batch_count);
+    }
     else
     {
         rb_status = rocblas_status_not_implemented;
@@ -514,8 +599,11 @@ extern "C" rocblas_status rocblas_gemm_strided_batched_ex(rocblas_handle    hand
         {
             if(handle->pointer_mode == rocblas_pointer_mode_host)
             {
-                double alpha_double;
-                double beta_double;
+                double alpha_double = 0.0;
+                double beta_double = 0.0;
+                double alpha_imag_double = 0.0;
+                double beta_imag_double = 0.0;
+
                 if(compute_type == rocblas_datatype_f16_r)
                 {
                     alpha_double = *static_cast<const _Float16*>(alpha);
@@ -536,6 +624,21 @@ extern "C" rocblas_status rocblas_gemm_strided_batched_ex(rocblas_handle    hand
                     alpha_double = *static_cast<const int32_t*>(alpha);
                     beta_double  = *static_cast<const int32_t*>(beta);
                 }
+                else if(compute_type == rocblas_datatype_f32_c)
+                {
+                    alpha_double      = (*static_cast<const rocblas_float_complex*>(alpha)).x;
+                    alpha_imag_double = (*static_cast<const rocblas_float_complex*>(alpha)).y;
+                    beta_double       = (*static_cast<const rocblas_float_complex*>(beta)).x;
+                    beta_imag_double  = (*static_cast<const rocblas_float_complex*>(beta)).y;
+                }
+                else if(compute_type == rocblas_datatype_f64_c)
+                {
+                    alpha_double      = (*static_cast<const rocblas_double_complex*>(alpha)).x;
+                    alpha_imag_double = (*static_cast<const rocblas_double_complex*>(alpha)).y;
+                    beta_double       = (*static_cast<const rocblas_double_complex*>(beta)).x;
+                    beta_imag_double  = (*static_cast<const rocblas_double_complex*>(beta)).y;
+                }
+
                 if(layer_mode & rocblas_layer_mode_log_trace)
                 {
                     log_trace(handle,
@@ -915,6 +1018,62 @@ extern "C" rocblas_status rocblas_gemm_strided_batched_ex(rocblas_handle    hand
                                                                                        stride_d,
                                                                                        batch_count);
         }
+    }
+    else if(a_type == rocblas_datatype_f32_c && b_type == rocblas_datatype_f32_c
+            && c_type == rocblas_datatype_f32_c && d_type == rocblas_datatype_f32_c
+            && compute_type == rocblas_datatype_f32_c)
+    {
+        rb_status = gemm_ex_typecasting<rocblas_float_complex,
+                                        rocblas_float_complex,
+                                        rocblas_float_complex>(handle,
+                                                               trans_a,
+                                                               trans_b,
+                                                               m,
+                                                               n,
+                                                               k,
+                                                               alpha,
+                                                               a,
+                                                               lda,
+                                                               stride_a,
+                                                               b,
+                                                               ldb,
+                                                               stride_b,
+                                                               beta,
+                                                               c,
+                                                               ldc,
+                                                               stride_c,
+                                                               d,
+                                                               ldd,
+                                                               stride_d,
+                                                               batch_count);
+    }
+    else if(a_type == rocblas_datatype_f64_c && b_type == rocblas_datatype_f64_c
+            && c_type == rocblas_datatype_f64_c && d_type == rocblas_datatype_f64_c
+            && compute_type == rocblas_datatype_f64_c)
+    {
+        rb_status = gemm_ex_typecasting<rocblas_double_complex,
+                                        rocblas_double_complex,
+                                        rocblas_double_complex>(handle,
+                                                                trans_a,
+                                                                trans_b,
+                                                                m,
+                                                                n,
+                                                                k,
+                                                                alpha,
+                                                                a,
+                                                                lda,
+                                                                stride_a,
+                                                                b,
+                                                                ldb,
+                                                                stride_b,
+                                                                beta,
+                                                                c,
+                                                                ldc,
+                                                                stride_c,
+                                                                d,
+                                                                ldd,
+                                                                stride_d,
+                                                                batch_count);
     }
     else
     {

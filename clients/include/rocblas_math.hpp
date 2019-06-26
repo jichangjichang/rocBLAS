@@ -7,6 +7,9 @@
 
 #include <hip/hip_runtime.h>
 
+#include <string>
+#include <sstream>
+
 #include <cmath>
 #include <immintrin.h>
 
@@ -20,9 +23,37 @@ inline __host__ rocblas_half float_to_half(float val)
 }
 
 // Helper routine to convert halfs into their floats equivalent; uses F16C instructions
-inline __host__ float half_to_float(rocblas_half val)
+inline __host__ float half_to_float(const rocblas_half val)
 {
     return _cvtsh_ss(val);
+}
+
+/* ============================================================================================ */
+// Helper routine to convert rocblas_type into string
+template <typename T, typename std::enable_if<!is_complex<T>>::type* = nullptr>
+inline std::string rocblas_type_to_string(const T& value)
+{
+    std::stringstream ss;
+    ss << value;
+    return ss.str();
+}
+
+template <typename T, typename std::enable_if<is_complex<T>>::type* = nullptr>
+inline std::string rocblas_type_to_string(const T& value)
+{
+    std::stringstream ss;
+    if(value.y >= 0)
+        ss << value.x << '+' << value.y << 'i';
+    else
+        ss << value.x << value.y << 'i';
+    return ss.str();
+}
+
+inline std::string rocblas_type_to_string(const rocblas_half& value)
+{
+    std::stringstream ss;
+    ss << half_to_float(value);
+    return ss.str();
 }
 
 /* ============================================================================================ */
@@ -47,16 +78,27 @@ inline bool rocblas_isnan(rocblas_half arg)
 }
 
 /* ============================================================================================ */
-/*! \brief is_complex<T> returns true iff T is complex */
+// Helper routine to convert two double argument to rocblas type
+template <typename T, typename std::enable_if<!is_complex<T>>::type* = nullptr>
+inline T compose_value(double real, double imag)
+{
+    return rocblas_isnan(real) ? 0 : real;
+}
 
-template <typename>
-static constexpr bool is_complex = false;
+template <typename T, typename std::enable_if<is_complex<T>>::type* = nullptr>
+inline T compose_value(double real, double imag)
+{
+    if (rocblas_isnan(real) || rocblas_isnan(imag))
+        return T{0.0 , 0.0};
+    else
+        return T{real, imag};
+}
 
 template <>
-static constexpr bool is_complex<rocblas_double_complex> = true;
-
-template <>
-static constexpr bool is_complex<rocblas_float_complex> = true;
+inline rocblas_half compose_value(double real, double imag)
+{
+    return rocblas_isnan(real) ? 0 : float_to_half(real);
+}
 
 /* ============================================================================================ */
 /*! \brief negate a value */
