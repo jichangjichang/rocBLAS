@@ -106,7 +106,8 @@ inline void rocblas_expect_status(rocblas_status status, rocblas_status expect)
     INSTANTIATE_TEST_CATEGORY(testclass, quick)       \
     INSTANTIATE_TEST_CATEGORY(testclass, pre_checkin) \
     INSTANTIATE_TEST_CATEGORY(testclass, nightly)     \
-    INSTANTIATE_TEST_CATEGORY(testclass, known_bug)
+    INSTANTIATE_TEST_CATEGORY(testclass, known_bug)   \
+    INSTANTIATE_TEST_CATEGORY(testclass, complex_type)
 
 /* ============================================================================================ */
 /*! \brief  Normalized test name to conform to Google Tests */
