@@ -51,35 +51,6 @@ static constexpr bool is_complex<rocblas_float_complex> = true;
 template <>
 static constexpr bool is_complex<rocblas_double_complex> = true;
 
-/* ============================================================================================ */
-/*! \brief complex output helper function */
-inline std::ostream& operator<<(std::ostream& out, const rocblas_float_complex& data)
-{
-    if (data.y >= 0)
-    {
-        out << data.x << "+" << data.y << "i";
-    }
-    else
-    {
-        out << data.x << data.y << "i";
-    }
-
-    return out;
-}
-
-inline std::ostream& operator<<(std::ostream& out, const rocblas_double_complex& data)
-{
-    if (data.y >= 0)
-    {
-        out << data.x << "+" << data.y << "i";
-    }
-    else
-    {
-        out << data.x << data.y << "i";
-    }
-
-    return out;
-}
 #endif
 
 /* ============================================================================================ */
