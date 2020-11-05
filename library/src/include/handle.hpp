@@ -409,7 +409,7 @@ private:
         explicit _gsu_malloc(rocblas_handle handle)
             : _device_malloc(handle, handle->device_memory_size - handle->device_memory_in_use)
         {
-            handle->gsu_workspace_size = success ? 0 : 0;
+            handle->gsu_workspace_size = (success && size < 256 * 128 * 15 * 4) ? size : 0;
             handle->gsu_workspace      = static_cast<void*>(*this);
         }
 
