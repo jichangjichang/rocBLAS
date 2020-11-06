@@ -80622,7 +80622,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -80846,7 +80846,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -81070,7 +81070,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -81294,7 +81294,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -81518,7 +81518,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 5
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -81742,7 +81742,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -81966,7 +81966,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -82190,7 +82190,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -82414,7 +82414,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -82638,7 +82638,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -82862,7 +82862,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -83086,7 +83086,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -83310,7 +83310,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -83534,7 +83534,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -83758,7 +83758,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -83982,7 +83982,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -84206,7 +84206,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -84430,7 +84430,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -84654,7 +84654,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -84878,7 +84878,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -85102,7 +85102,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -85326,7 +85326,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -85550,7 +85550,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -85774,7 +85774,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -85998,7 +85998,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -86222,7 +86222,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -86446,7 +86446,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -86670,7 +86670,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -86894,7 +86894,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -87118,7 +87118,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -87342,7 +87342,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -87566,7 +87566,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -87790,7 +87790,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -88014,7 +88014,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -88238,7 +88238,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -88462,7 +88462,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -88686,7 +88686,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -88910,7 +88910,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -89134,7 +89134,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -89358,7 +89358,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -89582,7 +89582,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -89806,7 +89806,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -90030,7 +90030,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -90254,7 +90254,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 5
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -90478,7 +90478,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -90702,7 +90702,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -90926,7 +90926,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 5
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -91150,7 +91150,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 2
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -91374,7 +91374,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 5
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -91598,7 +91598,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -91822,7 +91822,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -92046,7 +92046,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -92270,7 +92270,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -92494,7 +92494,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -92718,7 +92718,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 2
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -92942,7 +92942,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 2
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -93166,7 +93166,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 2
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -93390,7 +93390,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -93614,7 +93614,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -93838,7 +93838,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -94062,7 +94062,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -94286,7 +94286,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -94510,7 +94510,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -94734,7 +94734,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -94958,7 +94958,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -95182,7 +95182,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -95406,7 +95406,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -95630,7 +95630,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -95854,7 +95854,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -96078,7 +96078,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -96302,7 +96302,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -96526,7 +96526,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -96750,7 +96750,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 5
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -96974,7 +96974,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 5
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -97198,7 +97198,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 5
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -97422,7 +97422,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 5
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -97646,7 +97646,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -97870,7 +97870,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -98094,7 +98094,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -98318,7 +98318,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -98542,7 +98542,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -98766,7 +98766,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -98990,7 +98990,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -99214,7 +99214,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -99438,7 +99438,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -99662,7 +99662,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -99886,7 +99886,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -100110,7 +100110,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -100334,7 +100334,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -100558,7 +100558,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -100782,7 +100782,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -101006,7 +101006,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -101230,7 +101230,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -101454,7 +101454,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -101678,7 +101678,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -101902,7 +101902,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -102126,7 +102126,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -102350,7 +102350,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 2
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -102574,7 +102574,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -102798,7 +102798,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -103022,7 +103022,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -103246,7 +103246,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -103470,7 +103470,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -103694,7 +103694,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -103918,7 +103918,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -104142,7 +104142,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -104366,7 +104366,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -104590,7 +104590,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -104814,7 +104814,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -105038,7 +105038,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -105262,7 +105262,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -105486,7 +105486,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -105710,7 +105710,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -105934,7 +105934,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -106158,7 +106158,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -106382,7 +106382,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -106606,7 +106606,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -106830,7 +106830,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -107054,7 +107054,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -107278,7 +107278,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -107502,7 +107502,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -107726,7 +107726,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -107950,7 +107950,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -108174,7 +108174,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -108398,7 +108398,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -108622,7 +108622,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -108846,7 +108846,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -109070,7 +109070,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -109294,7 +109294,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -109518,7 +109518,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -109742,7 +109742,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -109966,7 +109966,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -110190,7 +110190,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -110414,7 +110414,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -110638,7 +110638,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -110862,7 +110862,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -111086,7 +111086,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -111310,7 +111310,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -111534,7 +111534,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -111758,7 +111758,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -111982,7 +111982,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -112206,7 +112206,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -112430,7 +112430,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -112654,7 +112654,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 2
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -112878,7 +112878,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 2
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -113102,7 +113102,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -113326,7 +113326,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -113550,7 +113550,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -113774,7 +113774,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -113998,7 +113998,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -114222,7 +114222,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -114446,7 +114446,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -114670,7 +114670,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -114894,7 +114894,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -115118,7 +115118,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -115342,7 +115342,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -115566,7 +115566,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -115790,7 +115790,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -116014,7 +116014,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -116238,7 +116238,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -116462,7 +116462,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -116686,7 +116686,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -116910,7 +116910,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -117134,7 +117134,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -117358,7 +117358,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -117582,7 +117582,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -117806,7 +117806,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -118030,7 +118030,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -118254,7 +118254,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -118478,7 +118478,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -118702,7 +118702,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -118926,7 +118926,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -119150,7 +119150,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -119374,7 +119374,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -119598,7 +119598,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -119822,7 +119822,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -120046,7 +120046,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 3
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -120270,7 +120270,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -120494,7 +120494,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -120718,7 +120718,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -120942,7 +120942,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -121166,7 +121166,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -121390,7 +121390,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 7
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -121614,7 +121614,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 15
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -121838,7 +121838,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -122062,7 +122062,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -122286,7 +122286,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -122510,7 +122510,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -122734,7 +122734,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -122958,7 +122958,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -123182,7 +123182,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -123406,7 +123406,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -123630,7 +123630,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -123854,7 +123854,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -124078,7 +124078,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -124302,7 +124302,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -124526,7 +124526,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -124750,7 +124750,7 @@
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
     GlobalSplitU: 1
-    GlobalSplitUAlgorithm: SingleBuffer
+    GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
