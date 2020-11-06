@@ -40178,7 +40178,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -41283,7 +41283,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -42167,7 +42167,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -43714,7 +43714,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -44156,7 +44156,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -45261,7 +45261,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -46366,7 +46366,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -47029,7 +47029,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -53880,7 +53880,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -55648,7 +55648,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -55869,7 +55869,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -56090,7 +56090,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -56311,7 +56311,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -61836,7 +61836,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -62057,7 +62057,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -63162,7 +63162,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -65372,7 +65372,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -69792,7 +69792,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -70013,7 +70013,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -82637,7 +82637,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -82821,7 +82821,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -83981,7 +83981,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -84165,7 +84165,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -85101,7 +85101,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -85285,7 +85285,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -85549,7 +85549,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -85733,7 +85733,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -85773,7 +85773,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -85957,7 +85957,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 3
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -85997,7 +85997,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -86181,7 +86181,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -87789,7 +87789,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -87973,7 +87973,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -88685,7 +88685,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -88869,7 +88869,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 3
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -90477,7 +90477,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -90661,7 +90661,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -96525,7 +96525,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -96709,7 +96709,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -97645,7 +97645,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -97829,7 +97829,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -97869,7 +97869,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -98053,7 +98053,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -98093,7 +98093,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -98277,7 +98277,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -98317,7 +98317,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -98501,7 +98501,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -98541,7 +98541,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -98725,7 +98725,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -98765,7 +98765,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -98949,7 +98949,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -98989,7 +98989,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -99173,7 +99173,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -99213,7 +99213,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -99397,7 +99397,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -99437,7 +99437,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -99621,7 +99621,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -99661,7 +99661,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -99845,7 +99845,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -99885,7 +99885,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -100069,7 +100069,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -100109,7 +100109,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -100293,7 +100293,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -100333,7 +100333,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -100517,7 +100517,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -100557,7 +100557,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -100741,7 +100741,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -102573,7 +102573,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -102757,7 +102757,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -104365,7 +104365,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -104549,7 +104549,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -104589,7 +104589,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -104773,7 +104773,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -104813,7 +104813,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -104997,7 +104997,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -105037,7 +105037,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -105221,7 +105221,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -105261,7 +105261,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -105445,7 +105445,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -105709,7 +105709,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -105893,7 +105893,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -105933,7 +105933,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -106117,7 +106117,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -106157,7 +106157,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -106341,7 +106341,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -106381,7 +106381,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -106565,7 +106565,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -106605,7 +106605,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -106789,7 +106789,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 1
     AggressivePerfMode: 1
@@ -107501,7 +107501,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -107685,7 +107685,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -111757,7 +111757,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -111941,7 +111941,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 3
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -111981,7 +111981,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -112165,7 +112165,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 3
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -117581,7 +117581,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -117765,7 +117765,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -118925,7 +118925,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -119109,7 +119109,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -119821,7 +119821,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -120005,7 +120005,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -120941,7 +120941,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -121125,7 +121125,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -121389,7 +121389,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -121573,7 +121573,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -121613,7 +121613,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 2
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -121797,7 +121797,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 8
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
