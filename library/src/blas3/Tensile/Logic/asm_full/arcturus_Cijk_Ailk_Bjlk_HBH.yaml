@@ -40178,7 +40178,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -40323,7 +40323,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 195
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM1_GRVW2_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM1_GRVW2_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -41283,7 +41283,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -41428,7 +41428,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 200
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x32_MI16x16x16x1_SE_AF0EM8_GRVW8_GSU7_SU32_SUS128_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x32_MI16x16x16x1_SE_AF0EM8_GRVW8_GSU15_SU32_SUS128_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 32
     StaggerUMapping: 0
     StaggerUStride: 128
@@ -42167,7 +42167,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -42312,7 +42312,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 204
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM8_GRVW2_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM8_GRVW2_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -43714,7 +43714,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -43859,7 +43859,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 211
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM1_GRVW2_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM1_GRVW2_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -44156,7 +44156,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -44301,7 +44301,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 213
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x32_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x32_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -45261,7 +45261,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -45406,7 +45406,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 218
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x32_MI16x16x16x1_SE_AF0EM8_GRVW2_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x32_MI16x16x16x1_SE_AF0EM8_GRVW2_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -46366,7 +46366,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -46511,7 +46511,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 223
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x32_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x32_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -47029,7 +47029,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -47174,7 +47174,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 226
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT128x128x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU32_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT128x128x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU32_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
     StaggerU: 32
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -62057,7 +62057,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -62202,7 +62202,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 294
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU32_SUS128_SRVW0_VAW1_WG64_4_1_WGM15
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU32_SUS128_SRVW0_VAW1_WG64_4_1_WGM15
     StaggerU: 32
     StaggerUMapping: 0
     StaggerUStride: 128
@@ -65372,7 +65372,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -65517,7 +65517,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 309
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT16x64x64_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG16_16_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT16x64x64_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG16_16_1_WGM1
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -69792,7 +69792,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -69937,7 +69937,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 329
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT16x64x64_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG16_16_1_WGM15
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT16x64x64_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG16_16_1_WGM15
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -70013,7 +70013,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
     GlobalWriteVectorWidth: 2
@@ -70158,7 +70158,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 330
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT16x64x64_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG16_16_1_WGM2
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT16x64x64_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG16_16_1_WGM2
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -85101,7 +85101,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -85249,7 +85249,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 398
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -85285,7 +85285,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -85549,7 +85549,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -85697,7 +85697,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 400
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT128x128x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT128x128x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -85733,7 +85733,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -85773,7 +85773,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 4
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -85921,7 +85921,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 401
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT256x256x16_MI32x32x8x1_SE_AF0EM8_GRVW4_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT256x256x16_MI32x32x8x1_SE_AF0EM8_GRVW4_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -85957,7 +85957,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 3
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -99885,7 +99885,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -100033,7 +100033,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 464
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT256x128x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT256x128x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -100069,7 +100069,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -100109,7 +100109,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -100257,7 +100257,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 465
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT256x128x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT256x128x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -100293,7 +100293,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -100333,7 +100333,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -100481,7 +100481,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 466
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT256x128x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT256x128x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -100517,7 +100517,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -100557,7 +100557,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -100705,7 +100705,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 467
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT128x256x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT128x256x32_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -100741,7 +100741,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 2
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -104813,7 +104813,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -104961,7 +104961,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 486
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU32_SUS128_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU32_SUS128_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 32
     StaggerUMapping: 0
     StaggerUStride: 128
@@ -104997,7 +104997,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -105037,7 +105037,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -105185,7 +105185,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 487
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM2
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -105221,7 +105221,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -105261,7 +105261,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -105409,7 +105409,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 488
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU32_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x64x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU32_SUS256_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 32
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -105445,7 +105445,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -106381,7 +106381,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -106529,7 +106529,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 493
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT128x128x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT128x128x64_MI32x32x8x1_SE_AF0EM8_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -106565,7 +106565,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -119821,7 +119821,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -119969,7 +119969,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 553
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM8_GRVW2_GSU7_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM8_GRVW2_GSU15_SU0_SUS256_SRVW0_VAW1_WG64_4_1_WGM15
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -120005,7 +120005,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -120941,7 +120941,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 2
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -121089,7 +121089,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 558
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM8_GRVW2_GSU7_SU32_SUS128_SRVW0_VAW1_WG64_4_1_WGM1
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT64x16x64_MI16x16x16x1_SE_AF0EM8_GRVW2_GSU15_SU32_SUS128_SRVW0_VAW1_WG64_4_1_WGM1
     StaggerU: 32
     StaggerUMapping: 0
     StaggerUStride: 128
@@ -121125,7 +121125,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 0
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
@@ -121613,7 +121613,7 @@
     GlobalReadCoalesceVectorA: true
     GlobalReadCoalesceVectorB: true
     GlobalReadVectorWidth: 8
-    GlobalSplitU: 7
+    GlobalSplitU: 15
     GlobalSplitUAlgorithm: MultipleBuffer
     GlobalSplitUSummationAssignmentRoundRobin: true
     GlobalSplitUWorkGroupMappingRoundRobin: false
@@ -121761,7 +121761,7 @@
     ScheduleIterAlg: 3
     ScheduleLocalWrite: 1
     SolutionIndex: 561
-    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT16x64x64_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU7_SU0_SUS256_SRVW0_VAW1_WG16_16_1_WGM15
+    SolutionNameMin: Cijk_Ailk_Bjlk_HBH_MT16x64x64_MI16x16x16x1_SE_AF0EM1_GRVW8_GSU15_SU0_SUS256_SRVW0_VAW1_WG16_16_1_WGM15
     StaggerU: 0
     StaggerUMapping: 0
     StaggerUStride: 256
@@ -121797,7 +121797,7 @@
     _GlobalAccumulation: MultipleBuffer
     _UseSgprForGRO: false
     _VectorStore: 1
-    _WorkspaceSizePerElemC: 28
+    _WorkspaceSizePerElemC: 60
     _staggerStrideShift: 1
   - 1LDSBuffer: 0
     AggressivePerfMode: 1
